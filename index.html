@@ -14,7 +14,7 @@
 <body>
     <main>
         <section class="jogador">
-            <img class="imagem_jogador" src="./img/neymar.png" alt="Imagem de um jogador da seleção brasileira">
+            <img class="imagem_jogador" src="./img/silhueta.png" alt="Imagem de um jogador da seleção brasileira">
             <figcaption class="titulo">Seleção <br> Brasileira</figcaption>
         </section>
 
@@ -22,25 +22,25 @@
             <div class="estatistica">
                 <p class="estatistica-titulo">Habilidade</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">0</p>
+                    <p class="estatistica-numero" data-estatistica="habilidade">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Físico</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">0</p>
+                    <p class="estatistica-numero" data-estatistica="fisico">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Passes</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">0</p>
+                    <p class="estatistica-numero" data-estatistica="passes">0</p>
                 </div>
             </div>
             <div class="estatistica">
                 <p class="estatistica-titulo">Defesa</p>
                 <div class="estatistica-valor">
-                    <p class="estatistica-numero">0</p>
+                    <p class="estatistica-numero" data-estatistica="defesa">0</p>
                 </div>
             </div>
         </section>
@@ -52,53 +52,54 @@
                     <div class="skill">
                         <label for="" class="skill-titulo">Dribles</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-skill="dribles">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-skill="dribles">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="skill">
                         <label for="" class="skill-titulo">Força</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-skill="forca">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-skill="forca">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="skill">
                         <label for="" class="skill-titulo">Chute</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-skill="chute">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-skill="chute">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="skill">
                         <label for="" class="skill-titulo">Interceptação</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-skill="interceptacao">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-skill="interceptacao">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                     <div class="skill">
                         <label for="" class="skill-titulo">Reflexo</label>
                         <div class="controle">
-                            <buttom class="controle-ajuste">-</buttom>
-                            <input type="text" class="controle-contador" value="00">
-                            <buttom class="controle-ajuste">+</buttom>
+                            <buttom class="controle-ajuste" data-controle="-" data-skill="reflexo">-</buttom>
+                            <input type="text" class="controle-contador" value="00" data-contador>
+                            <buttom class="controle-ajuste" data-controle="+" data-skill="reflexo">+</buttom>
                         </div>
                     </div>
                     <hr class="linha">
                 </div>
-                <input type="submit" value="Finalizar ajuste" class="producao" id="producao">
+                <input type="button" value="Finalizar jogador" class="finalizar">
             </form>
         </section>
     </main>
-    
+
+    <script src="./js/main.js"></script>
 </body>
 </html>

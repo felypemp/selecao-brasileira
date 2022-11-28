@@ -41,7 +41,7 @@ main {
     height: 110%;
     z-index: 1;
     position: absolute;
-    left: 20%;
+    left: 10%;
     top: -5%;
 }
 
@@ -131,7 +131,7 @@ main {
     border-color: var(--main-cinza);
 }
 
-.producao {
+.finalizar {
     margin-top: 1em;
     font-size: 2em;
     text-transform: uppercase;
@@ -143,7 +143,7 @@ main {
     cursor: pointer;
 }
 
-.producao:hover {
+.finalizar:hover {
     background: var(--main-preto);
     color: var(--main-branco)
 }
@@ -218,6 +218,20 @@ main {
         height: 80vh;
         margin: 5vh auto;
     }
+
+    .imagem_jogador {
+        height: 90%;
+        left: 5%;
+        top: -2%;
+    }
+
+    .titulo {
+        font-weight: 500;
+        font-size: 100px;
+        position: absolute;
+        left: -5rem;
+        line-height: 0.8;
+    }
 }
 
 @media screen and (max-width: 1200px) {
@@ -229,5 +243,13 @@ main {
         width: 96vw;
         height: 80vh;
         margin: 10vh auto;
+    }
+
+    .imagem_jogador {
+        height: 110%;
+        z-index: 1;
+        position: absolute;
+        left: 20%;
+        top: -5%;
     }
 }

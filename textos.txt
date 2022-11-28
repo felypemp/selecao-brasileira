@@ -1,0 +1,49 @@
+Estatisticas:
+
+Habilidade
+Físico
+Passes
+Defesa
+
+Skills:
+
+Drible
+força
+chute
+interceptação
+reflexo
+
+
+const skill = {
+    "dribles": {
+        "habilidade": 25,
+        "fisico": 10,
+        "passes": 17,
+        "defesa": -5
+    },
+
+    "forca": {
+        "habilidade": 9,
+        "fisico": 27,
+        "passes": -10,
+        "defesa": 20
+    },
+    "chute":{
+        "habilidade": 13,
+        "fisico": 19,
+        "passes": 17,
+        "defesa": 5
+    },
+    "interceptacao":{
+        "habilidade": 29,
+        "fisico": 15,
+        "passes": -11,
+        "defesa": 30
+    },
+    "reflexo":{
+        "habilidade": 29,
+        "fisico": -25,
+        "passes": -12,
+        "defesa": 23
+    }
+}
